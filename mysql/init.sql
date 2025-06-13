@@ -19,8 +19,8 @@ DROP TABLE IF EXISTS account;
 CREATE TABLE account(
                         id						INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                         username				VARCHAR(50) NOT NULL UNIQUE KEY,
-                        firstname				VARCHAR(50),
-                        lastname				VARCHAR(50),
+                        first_name				VARCHAR(50),
+                        last_name				VARCHAR(50),
                         department_id 			INT UNSIGNED NOT NULL,
                         FOREIGN KEY(department_id) REFERENCES department(id)
 );
@@ -32,8 +32,8 @@ CREATE TABLE users (
                        email varchar(50) NOT NULL,
                        password varchar(120) NOT NULL,
                        username varchar(20) NOT NULL,
-                       firstname varchar(20),
-                       lastname varchar(20),
+                       first_name varchar(20),
+                       last_name varchar(20),
                        access_token varchar(255),
                        refresh_token varchar(255),
                        role ENUM('USER','ADMIN','MANAGER') NOT NULL,
