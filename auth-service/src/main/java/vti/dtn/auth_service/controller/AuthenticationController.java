@@ -3,14 +3,12 @@ package vti.dtn.auth_service.controller;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import vti.dtn.auth_service.dto.request.LoginRequest;
 import vti.dtn.auth_service.dto.request.RegisterRequest;
 import vti.dtn.auth_service.dto.response.LoginResponse;
 import vti.dtn.auth_service.dto.response.RegisterResponse;
+import vti.dtn.auth_service.dto.response.VerifyTokenResponse;
 import vti.dtn.auth_service.service.AuthenticationService;
 
 @RestController
@@ -34,6 +32,22 @@ public class AuthenticationController {
         return ResponseEntity
                 .status(loginResponse.getStatus())
                 .body(loginResponse);
+    }
+
+    @PostMapping("/refresh-token")
+    public ResponseEntity<LoginResponse> refreshToken(@RequestHeader("Authorization") String authHeader) {
+        LoginResponse response = authenticationService.refreshToken(authHeader);
+        return ResponseEntity
+                .status(response.getStatus())
+                .body(response);
+    }
+
+    @GetMapping("/verify")
+    public ResponseEntity<VerifyTokenResponse> verifyToken(@RequestHeader("Authorization") String authHeader) {
+        VerifyTokenResponse response = authenticationService.verifyToken(authHeader);
+        return ResponseEntity
+                .status(response.getStatus())
+                .body(response);
     }
 }
 
