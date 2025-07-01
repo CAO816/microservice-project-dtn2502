@@ -5,6 +5,7 @@ import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import vti.dtn.auth_service.entity.enums.Role;
+import vti.dtn.auth_service.oauth2.common.AuthProvider;
 
 import java.util.Collection;
 import java.util.List;
@@ -25,7 +26,7 @@ public class User implements UserDetails {
     @Column(length = 50, nullable = false, unique = true)
     private String email;
 
-    @Column(length = 120, nullable = false)
+    @Column(length = 120)
     private String password;
 
     @Column(length = 20, nullable = false, unique = true)
@@ -45,6 +46,16 @@ public class User implements UserDetails {
 
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @Column(name = "provider", columnDefinition = "ENUM('local', 'facebook', 'google', 'github') DEFAULT 'local'")
+    @Enumerated(EnumType.STRING)
+    private AuthProvider provider;
+
+    @Column(name = "provider_id", length = 100, nullable = true)
+    private String providerId;
+
+    @Column(name = "img_url", length = 200, nullable = true)
+    private String imageUrl;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
