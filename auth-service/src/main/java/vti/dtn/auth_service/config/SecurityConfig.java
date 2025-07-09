@@ -27,7 +27,8 @@ public class SecurityConfig {
             "/oauth2/authorize",
             "/oauth2/authorize/github",
             "/oauth2/callback/github",
-            "/oauth2/redirect"
+            "/oauth2/redirect",
+//            "user/me"
     };
     private final JwtFilter jwtFilter;
     private final CustomOAuth2UserService customOAuth2UserService;
@@ -46,19 +47,20 @@ public class SecurityConfig {
                                 .authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)
-                .oauth2Login()
-                .authorizationEndpoint()
-                .baseUri("/oauth2/authorize")
-                .authorizationRequestRepository(httpCookieOAuthorizationRequestRepository)
-                .and()
-                .redirectionEndpoint()
-                .baseUri("/oauth2/callback/*")
-                .and()
-                .userInfoEndpoint()
-                .userService(customOAuth2UserService)
-                .and()
-                .successHandler(oAuth2AuthenticationSuccessHandler)
-                .failureHandler(oAuth2AuthenticationFailureHandler);
+                .oauth2Login(oauth2 -> oauth2
+                        .authorizationEndpoint()
+                        .baseUri("/oauth2/authorize")
+                        .authorizationRequestRepository(httpCookieOAuthorizationRequestRepository)
+                        .and()
+                        .redirectionEndpoint()
+                        .baseUri("/oauth2/callback/*")
+                        .and()
+                        .userInfoEndpoint()
+                        .userService(customOAuth2UserService)
+                        .and()
+                        .successHandler(oAuth2AuthenticationSuccessHandler)
+                        .failureHandler(oAuth2AuthenticationFailureHandler))
+                .securityMatcher(WHITE_LIST_URL);
 
         return http.build();
     }

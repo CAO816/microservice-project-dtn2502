@@ -1,0 +1,308 @@
+2025-07-07T05:49:19.861Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Starting DepartmentServiceApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/department-service-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-07-07T05:49:19.955Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T05:49:24.750Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Starting DepartmentServiceApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/department-service-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-07-07T05:49:24.804Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T05:49:38.656Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T05:49:40.526Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1814 ms. Found 1 JPA repository interface.
+2025-07-07T05:49:42.752Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T05:49:44.684Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1600 ms. Found 1 JPA repository interface.
+2025-07-07T05:49:45.037Z  INFO 1 --- [department-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4c32c387-d284-34a5-a225-b3279ca5667f
+2025-07-07T05:49:49.100Z  INFO 1 --- [department-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4c32c387-d284-34a5-a225-b3279ca5667f
+2025-07-07T05:49:51.536Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-07T05:49:51.582Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-07T05:49:51.584Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-07T05:49:52.407Z  INFO 1 --- [department-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-07T05:49:52.459Z  INFO 1 --- [department-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 31542 ms
+2025-07-07T05:49:55.560Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T05:49:56.760Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-07T05:49:56.920Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-07T05:49:56.922Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-07T05:49:57.061Z  INFO 1 --- [department-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-07T05:49:57.063Z  INFO 1 --- [department-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 30735 ms
+2025-07-07T05:49:58.604Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T05:49:59.767Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fe46d52
+2025-07-07T05:49:59.840Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T05:50:00.675Z  INFO 1 --- [department-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-07T05:50:01.486Z  INFO 1 --- [department-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-07T05:50:02.515Z  INFO 1 --- [department-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-07T05:50:03.124Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ed0b4e3
+2025-07-07T05:50:03.154Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T05:50:04.107Z  INFO 1 --- [department-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-07T05:50:04.708Z  INFO 1 --- [department-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-07T05:50:05.301Z  INFO 1 --- [department-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-07T05:50:06.433Z  INFO 1 --- [department-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T05:50:07.973Z  INFO 1 --- [department-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T05:50:08.445Z  INFO 1 --- [department-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.30
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-07T05:50:08.519Z  INFO 1 --- [department-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.30
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-07T05:50:18.767Z  INFO 1 --- [department-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-07T05:50:18.789Z  INFO 1 --- [department-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T05:50:18.989Z  INFO 1 --- [department-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-07T05:50:19.038Z  INFO 1 --- [department-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T05:50:21.302Z  WARN 1 --- [department-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-07T05:50:22.032Z  WARN 1 --- [department-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-07T05:50:25.775Z  INFO 1 --- [department-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-07T05:50:26.029Z  WARN 1 --- [department-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-07T05:50:26.485Z  INFO 1 --- [department-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-07T05:50:26.759Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-07T05:50:26.796Z  INFO 1 --- [department-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T05:50:26.867Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T05:50:26.870Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T05:50:26.872Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T05:50:26.875Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T05:50:26.877Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T05:50:26.880Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-07T05:50:26.883Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T05:50:28.530Z  INFO 1 --- [department-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-07T05:50:29.035Z  WARN 1 --- [department-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-07T05:50:29.268Z  INFO 1 --- [department-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-07T05:50:29.450Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-07T05:50:29.485Z  INFO 1 --- [department-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T05:50:29.617Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T05:50:29.638Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T05:50:29.639Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T05:50:29.641Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T05:50:29.646Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T05:50:29.655Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-07T05:50:29.673Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T05:50:30.970Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T05:50:30.975Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-07T05:50:30.988Z  INFO 1 --- [department-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-07T05:50:30.996Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1751867430994 with initial instances count: 0
+2025-07-07T05:50:31.062Z  INFO 1 --- [department-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2025-07-07T05:50:31.077Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751867431077, current=UP, previous=STARTING]
+2025-07-07T05:50:31.114Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/21eaefdce15a:department-service:8080: registering service...
+2025-07-07T05:50:31.312Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-07T05:50:31.338Z  INFO 1 --- [department-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-07-07T05:50:31.777Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Started DepartmentServiceApplication in 88.811 seconds (process running for 96.908)
+2025-07-07T05:50:33.758Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/21eaefdce15a:department-service:8080 - registration status: 204
+2025-07-07T05:50:34.452Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T05:50:34.457Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-07T05:50:34.466Z  INFO 1 --- [department-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-07T05:50:34.474Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1751867434472 with initial instances count: 0
+2025-07-07T05:50:34.553Z  INFO 1 --- [department-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2025-07-07T05:50:34.579Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751867434579, current=UP, previous=STARTING]
+2025-07-07T05:50:34.665Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/b7f14f34044d:department-service:8080: registering service...
+2025-07-07T05:50:34.923Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-07T05:50:34.926Z  INFO 1 --- [department-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-07-07T05:50:35.113Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/b7f14f34044d:department-service:8080 - registration status: 204
+2025-07-07T05:50:35.159Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Started DepartmentServiceApplication in 86.754 seconds (process running for 100.499)
+2025-07-07T05:51:00.976Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T05:51:00.979Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T05:51:00.981Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T05:51:00.982Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T05:51:00.983Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T05:51:00.995Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-07T05:51:00.996Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T05:51:01.096Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T05:51:04.470Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T05:51:04.473Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T05:51:04.474Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T05:51:04.475Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T05:51:04.476Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T05:51:04.478Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-07T05:51:04.479Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T05:51:04.556Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T05:55:26.833Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T05:55:29.656Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:06:23.497Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Starting DepartmentServiceApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/department-service-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-07-07T13:06:23.534Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T13:06:23.988Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Starting DepartmentServiceApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/department-service-0.0.1-SNAPSHOT.jar started by root in /app)
+2025-07-07T13:06:24.028Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T13:06:44.205Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T13:06:45.676Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T13:06:47.753Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1975 ms. Found 1 JPA repository interface.
+2025-07-07T13:06:48.112Z  INFO 1 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3601 ms. Found 1 JPA repository interface.
+2025-07-07T13:06:53.992Z  INFO 1 --- [department-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4c32c387-d284-34a5-a225-b3279ca5667f
+2025-07-07T13:06:54.446Z  INFO 1 --- [department-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4c32c387-d284-34a5-a225-b3279ca5667f
+2025-07-07T13:07:06.264Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-07T13:07:06.494Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-07T13:07:06.506Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-07T13:07:06.787Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-07T13:07:07.201Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-07T13:07:07.265Z  INFO 1 --- [department-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-07T13:07:07.440Z  INFO 1 --- [department-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-07T13:07:07.474Z  INFO 1 --- [department-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 43038 ms
+2025-07-07T13:07:07.944Z  INFO 1 --- [department-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-07T13:07:07.971Z  INFO 1 --- [department-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 41727 ms
+2025-07-07T13:07:13.584Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T13:07:13.700Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T13:07:20.279Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27c53c32
+2025-07-07T13:07:20.335Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T13:07:20.468Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74123110
+2025-07-07T13:07:20.497Z  INFO 1 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T13:07:20.981Z  INFO 1 --- [department-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-07T13:07:21.314Z  INFO 1 --- [department-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-07T13:07:23.161Z  INFO 1 --- [department-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-07T13:07:23.378Z  INFO 1 --- [department-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-07T13:07:24.197Z  INFO 1 --- [department-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-07T13:07:24.299Z  INFO 1 --- [department-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-07T13:07:30.444Z  INFO 1 --- [department-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T13:07:30.516Z  INFO 1 --- [department-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T13:07:32.867Z  INFO 1 --- [department-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.30
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-07T13:07:33.150Z  INFO 1 --- [department-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.30
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-07T13:07:43.248Z  INFO 1 --- [department-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-07T13:07:43.322Z  INFO 1 --- [department-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T13:07:43.492Z  INFO 1 --- [department-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-07T13:07:43.533Z  INFO 1 --- [department-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T13:07:49.875Z  WARN 1 --- [department-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-07T13:07:49.960Z  WARN 1 --- [department-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-07T13:07:57.635Z  INFO 1 --- [department-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-07T13:07:58.158Z  INFO 1 --- [department-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-07T13:07:58.313Z  WARN 1 --- [department-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-07T13:07:58.553Z  INFO 1 --- [department-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-07T13:07:58.798Z  WARN 1 --- [department-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-07T13:07:59.172Z  INFO 1 --- [department-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-07T13:07:59.246Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-07T13:07:59.331Z  INFO 1 --- [department-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:07:59.451Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T13:07:59.463Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T13:07:59.471Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T13:07:59.495Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T13:07:59.523Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T13:07:59.524Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-07T13:07:59.540Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T13:07:59.716Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-07T13:07:59.817Z  INFO 1 --- [department-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:08:00.089Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T13:08:00.100Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T13:08:00.107Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T13:08:00.122Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T13:08:00.128Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T13:08:00.141Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-07T13:08:00.151Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T13:08:05.629Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T13:08:05.654Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T13:08:05.673Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-07T13:08:05.724Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-07T13:08:05.712Z  INFO 1 --- [department-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-07T13:08:05.772Z  INFO 1 --- [department-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-07T13:08:05.768Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1751893685761 with initial instances count: 0
+2025-07-07T13:08:05.797Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1751893685795 with initial instances count: 0
+2025-07-07T13:08:05.844Z  INFO 1 --- [department-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2025-07-07T13:08:05.870Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751893685870, current=UP, previous=STARTING]
+2025-07-07T13:08:05.898Z  INFO 1 --- [department-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2025-07-07T13:08:05.901Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/bd18905c155f:department-service:8080: registering service...
+2025-07-07T13:08:05.918Z  INFO 1 --- [department-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751893685918, current=UP, previous=STARTING]
+2025-07-07T13:08:05.941Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/213292d21163:department-service:8080: registering service...
+2025-07-07T13:08:06.334Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-07T13:08:06.416Z  INFO 1 --- [department-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-07-07T13:08:06.399Z  INFO 1 --- [department-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-07T13:08:06.465Z  INFO 1 --- [department-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-07-07T13:08:06.552Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Started DepartmentServiceApplication in 114.683 seconds (process running for 124.554)
+2025-07-07T13:08:06.812Z  INFO 1 --- [department-service] [main] v.d.d.DepartmentServiceApplication       : Started DepartmentServiceApplication in 115.099 seconds (process running for 124.499)
+2025-07-07T13:08:06.965Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/213292d21163:department-service:8080 - registration status: 204
+2025-07-07T13:08:07.070Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/bd18905c155f:department-service:8080 - registration status: 204
+2025-07-07T13:08:35.675Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T13:08:35.683Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T13:08:35.693Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T13:08:35.703Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T13:08:35.711Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T13:08:35.712Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-07T13:08:35.713Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T13:08:35.732Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-07T13:08:35.736Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-07T13:08:35.743Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-07T13:08:35.755Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-07T13:08:35.783Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-07T13:08:35.799Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-07-07T13:08:35.807Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-07T13:08:35.886Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T13:08:35.958Z  INFO 1 --- [department-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-07T13:12:59.557Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:13:00.152Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:17:59.545Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:18:00.143Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:22:59.529Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:23:00.126Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:27:59.512Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:28:00.109Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:32:59.494Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:33:00.090Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:37:59.478Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:38:00.073Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:42:59.461Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:43:00.056Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:47:59.444Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:48:00.039Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:52:59.428Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:53:00.023Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:57:59.411Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T13:58:00.007Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:02:59.397Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:02:59.994Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:07:59.386Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:07:59.981Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:12:59.376Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:12:59.974Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:17:59.365Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:17:59.963Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:22:59.356Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:22:59.952Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:27:59.344Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:27:59.941Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:32:59.333Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:32:59.931Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:37:59.320Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:37:59.919Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:42:59.306Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:42:59.907Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:47:59.295Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:47:59.896Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:52:59.278Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:52:59.880Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:57:59.263Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T14:57:59.865Z  INFO 1 --- [department-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-07T16:03:15.842Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPARTMENT-SERVICE with eureka with status DOWN
+2025-07-07T16:03:15.845Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751904195845, current=DOWN, previous=UP]
+2025-07-07T16:03:15.847Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/213292d21163:department-service:8080: registering service...
+2025-07-07T16:03:15.864Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application DEPARTMENT-SERVICE with eureka with status DOWN
+2025-07-07T16:03:15.870Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1751904195870, current=DOWN, previous=UP]
+2025-07-07T16:03:15.875Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/bd18905c155f:department-service:8080: registering service...
+2025-07-07T16:03:15.927Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/213292d21163:department-service:8080 - registration status: 204
+2025-07-07T16:03:15.951Z  INFO 1 --- [department-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/bd18905c155f:department-service:8080 - registration status: 204
+2025-07-07T16:03:15.960Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-07T16:03:15.961Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-07T16:03:16.066Z  INFO 1 --- [department-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-07T16:03:16.097Z  INFO 1 --- [department-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-07T16:03:16.101Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:03:16.126Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:03:16.160Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-07T16:03:16.176Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-07T16:03:16.180Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-07-07T16:03:16.187Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-07T16:03:16.203Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-07T16:03:16.208Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-07-07T16:03:19.182Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-07-07T16:03:19.196Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/213292d21163:department-service:8080 - deregister  status: 200
+2025-07-07T16:03:19.198Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-07-07T16:03:19.210Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-07-07T16:03:19.228Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/bd18905c155f:department-service:8080 - deregister  status: 200
+2025-07-07T16:03:19.234Z  INFO 1 --- [department-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
